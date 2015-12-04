@@ -55,6 +55,7 @@ public class EmoticonsKeyBoardPopWindow extends PopupWindow {
         mEmoticonsIndicatorView = (EmoticonsIndicatorView) view.findViewById(R.id.view_eiv);
         mEmoticonsToolBarView = (EmoticonsToolBarView) view.findViewById(R.id.view_etv);
 
+
         mEmoticonsPageView.setOnIndicatorListener(new EmoticonsPageView.OnEmoticonsPageViewListener() {
             @Override
             public void emoticonsPageViewInitFinish(int count) {
